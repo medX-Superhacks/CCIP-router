@@ -1,0 +1,1666 @@
+{
+  "Amoy testnet -> Arbitrum Sepolia testnet": {
+    "path": [
+      "Amoy testnet",
+      "Optimism Sepolia testnet",
+      "Arbitrum Sepolia testnet"
+    ],
+    "sourceSelector": "16281711391670634445",
+    "destinationSelector": "3478487238524512106",
+    "sourceCCIPRouter": "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7",
+    "destinationCCIPRouter": "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA"
+  },
+  "Amoy testnet -> Base Sepolia testnet": {
+    "path": [
+      "Amoy testnet",
+      "Optimism Sepolia testnet",
+      "Base Sepolia testnet"
+    ],
+    "sourceSelector": "16281711391670634445",
+    "destinationSelector": "10344971235874465080",
+    "sourceCCIPRouter": "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7",
+    "destinationCCIPRouter": "0x273C282A9f1B45416CB9967611d431C116286ef9"
+  },
+  "Amoy testnet -> BNB Chain testnet": {
+    "path": [
+      "Amoy testnet",
+      "BNB Chain testnet"
+    ],
+    "sourceSelector": "16281711391670634445",
+    "destinationSelector": "13264668187771770619",
+    "sourceCCIPRouter": "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Amoy testnet -> Celo Alfajores testnet": {
+    "path": [
+      "Amoy testnet",
+      "Sepolia testnet",
+      "Celo Alfajores testnet"
+    ],
+    "sourceSelector": "16281711391670634445",
+    "destinationSelector": "16015286601757825753",
+    "sourceCCIPRouter": "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Amoy testnet -> Fuji testnet": {
+    "path": [
+      "Amoy testnet",
+      "Fuji testnet"
+    ],
+    "sourceSelector": "16281711391670634445",
+    "destinationSelector": "14767482510784806043",
+    "sourceCCIPRouter": "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Amoy testnet -> Gnosis Chiado testnet": {
+    "path": [
+      "Amoy testnet",
+      "Gnosis Chiado testnet"
+    ],
+    "sourceSelector": "16281711391670634445",
+    "destinationSelector": "8871595565390010547",
+    "sourceCCIPRouter": "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Amoy testnet -> Kroma Sepolia testnet": {
+    "path": [
+      "Amoy testnet",
+      "Wemix testnet",
+      "Kroma Sepolia testnet"
+    ],
+    "sourceSelector": "16281711391670634445",
+    "destinationSelector": "5990477251245693094",
+    "sourceCCIPRouter": "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Amoy testnet -> Metis Sepolia testnet": {
+    "path": [
+      "Amoy testnet",
+      "Sepolia testnet",
+      "Metis Sepolia testnet"
+    ],
+    "sourceSelector": "16281711391670634445",
+    "destinationSelector": "3777822886988675105",
+    "sourceCCIPRouter": "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Amoy testnet -> Mode Sepolia testnet": {
+    "path": [
+      "Amoy testnet",
+      "Sepolia testnet",
+      "Mode Sepolia testnet"
+    ],
+    "sourceSelector": "16281711391670634445",
+    "destinationSelector": "829525985033418733",
+    "sourceCCIPRouter": "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Amoy testnet -> Optimism Sepolia testnet": {
+    "path": [
+      "Amoy testnet",
+      "Optimism Sepolia testnet"
+    ],
+    "sourceSelector": "16281711391670634445",
+    "destinationSelector": "5224473277236331295",
+    "sourceCCIPRouter": "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7",
+    "destinationCCIPRouter": "0xF99b791257ab50be7F235BC825E7d4B83942cf38"
+  },
+  "Amoy testnet -> Sepolia testnet": {
+    "path": [
+      "Amoy testnet",
+      "Sepolia testnet"
+    ],
+    "sourceSelector": "16281711391670634445",
+    "destinationSelector": "16015286601757825753",
+    "sourceCCIPRouter": "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7",
+    "destinationCCIPRouter": "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37"
+  },
+  "Amoy testnet -> Wemix testnet": {
+    "path": [
+      "Amoy testnet",
+      "Wemix testnet"
+    ],
+    "sourceSelector": "16281711391670634445",
+    "destinationSelector": "9284632837123596123",
+    "sourceCCIPRouter": "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Arbitrum Sepolia testnet -> Amoy testnet": {
+    "path": [
+      "Arbitrum Sepolia testnet",
+      "Wemix testnet",
+      "Amoy testnet"
+    ],
+    "sourceSelector": "3478487238524512106",
+    "destinationSelector": "16281711391670634445",
+    "sourceCCIPRouter": "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA",
+    "destinationCCIPRouter": "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7"
+  },
+  "Arbitrum Sepolia testnet -> Base Sepolia testnet": {
+    "path": [
+      "Arbitrum Sepolia testnet",
+      "Base Sepolia testnet"
+    ],
+    "sourceSelector": "3478487238524512106",
+    "destinationSelector": "10344971235874465080",
+    "sourceCCIPRouter": "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA",
+    "destinationCCIPRouter": "0x273C282A9f1B45416CB9967611d431C116286ef9"
+  },
+  "Arbitrum Sepolia testnet -> BNB Chain testnet": {
+    "path": [
+      "Arbitrum Sepolia testnet",
+      "Sepolia testnet",
+      "BNB Chain testnet"
+    ],
+    "sourceSelector": "3478487238524512106",
+    "destinationSelector": "13264668187771770619",
+    "sourceCCIPRouter": "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Arbitrum Sepolia testnet -> Celo Alfajores testnet": {
+    "path": [
+      "Arbitrum Sepolia testnet",
+      "Sepolia testnet",
+      "Celo Alfajores testnet"
+    ],
+    "sourceSelector": "3478487238524512106",
+    "destinationSelector": "16015286601757825753",
+    "sourceCCIPRouter": "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Arbitrum Sepolia testnet -> Fuji testnet": {
+    "path": [
+      "Arbitrum Sepolia testnet",
+      "Fuji testnet"
+    ],
+    "sourceSelector": "3478487238524512106",
+    "destinationSelector": "14767482510784806043",
+    "sourceCCIPRouter": "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Arbitrum Sepolia testnet -> Gnosis Chiado testnet": {
+    "path": [
+      "Arbitrum Sepolia testnet",
+      "Gnosis Chiado testnet"
+    ],
+    "sourceSelector": "3478487238524512106",
+    "destinationSelector": "8871595565390010547",
+    "sourceCCIPRouter": "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Arbitrum Sepolia testnet -> Kroma Sepolia testnet": {
+    "path": [
+      "Arbitrum Sepolia testnet",
+      "Wemix testnet",
+      "Kroma Sepolia testnet"
+    ],
+    "sourceSelector": "3478487238524512106",
+    "destinationSelector": "5990477251245693094",
+    "sourceCCIPRouter": "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Arbitrum Sepolia testnet -> Metis Sepolia testnet": {
+    "path": [
+      "Arbitrum Sepolia testnet",
+      "Sepolia testnet",
+      "Metis Sepolia testnet"
+    ],
+    "sourceSelector": "3478487238524512106",
+    "destinationSelector": "3777822886988675105",
+    "sourceCCIPRouter": "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Arbitrum Sepolia testnet -> Mode Sepolia testnet": {
+    "path": [
+      "Arbitrum Sepolia testnet",
+      "Sepolia testnet",
+      "Mode Sepolia testnet"
+    ],
+    "sourceSelector": "3478487238524512106",
+    "destinationSelector": "829525985033418733",
+    "sourceCCIPRouter": "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Arbitrum Sepolia testnet -> Optimism Sepolia testnet": {
+    "path": [
+      "Arbitrum Sepolia testnet",
+      "Optimism Sepolia testnet"
+    ],
+    "sourceSelector": "3478487238524512106",
+    "destinationSelector": "5224473277236331295",
+    "sourceCCIPRouter": "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA",
+    "destinationCCIPRouter": "0xF99b791257ab50be7F235BC825E7d4B83942cf38"
+  },
+  "Arbitrum Sepolia testnet -> Sepolia testnet": {
+    "path": [
+      "Arbitrum Sepolia testnet",
+      "Sepolia testnet"
+    ],
+    "sourceSelector": "3478487238524512106",
+    "destinationSelector": "16015286601757825753",
+    "sourceCCIPRouter": "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA",
+    "destinationCCIPRouter": "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37"
+  },
+  "Arbitrum Sepolia testnet -> Wemix testnet": {
+    "path": [
+      "Arbitrum Sepolia testnet",
+      "Wemix testnet"
+    ],
+    "sourceSelector": "3478487238524512106",
+    "destinationSelector": "9284632837123596123",
+    "sourceCCIPRouter": "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Base Sepolia testnet -> Amoy testnet": {
+    "path": [
+      "Base Sepolia testnet",
+      "Gnosis Chiado testnet",
+      "Amoy testnet"
+    ],
+    "sourceSelector": "10344971235874465080",
+    "destinationSelector": "16281711391670634445",
+    "sourceCCIPRouter": "0x273C282A9f1B45416CB9967611d431C116286ef9",
+    "destinationCCIPRouter": "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7"
+  },
+  "Base Sepolia testnet -> Arbitrum Sepolia testnet": {
+    "path": [
+      "Base Sepolia testnet",
+      "Arbitrum Sepolia testnet"
+    ],
+    "sourceSelector": "10344971235874465080",
+    "destinationSelector": "3478487238524512106",
+    "sourceCCIPRouter": "0x273C282A9f1B45416CB9967611d431C116286ef9",
+    "destinationCCIPRouter": "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA"
+  },
+  "Base Sepolia testnet -> BNB Chain testnet": {
+    "path": [
+      "Base Sepolia testnet",
+      "BNB Chain testnet"
+    ],
+    "sourceSelector": "10344971235874465080",
+    "destinationSelector": "13264668187771770619",
+    "sourceCCIPRouter": "0x273C282A9f1B45416CB9967611d431C116286ef9",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Base Sepolia testnet -> Celo Alfajores testnet": {
+    "path": [
+      "Base Sepolia testnet",
+      "Sepolia testnet",
+      "Celo Alfajores testnet"
+    ],
+    "sourceSelector": "10344971235874465080",
+    "destinationSelector": "16015286601757825753",
+    "sourceCCIPRouter": "0x273C282A9f1B45416CB9967611d431C116286ef9",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Base Sepolia testnet -> Fuji testnet": {
+    "path": [
+      "Base Sepolia testnet",
+      "Fuji testnet"
+    ],
+    "sourceSelector": "10344971235874465080",
+    "destinationSelector": "14767482510784806043",
+    "sourceCCIPRouter": "0x273C282A9f1B45416CB9967611d431C116286ef9",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Base Sepolia testnet -> Gnosis Chiado testnet": {
+    "path": [
+      "Base Sepolia testnet",
+      "Gnosis Chiado testnet"
+    ],
+    "sourceSelector": "10344971235874465080",
+    "destinationSelector": "8871595565390010547",
+    "sourceCCIPRouter": "0x273C282A9f1B45416CB9967611d431C116286ef9",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Base Sepolia testnet -> Kroma Sepolia testnet": {
+    "path": [
+      "Base Sepolia testnet",
+      "Fuji testnet",
+      "Wemix testnet",
+      "Kroma Sepolia testnet"
+    ],
+    "sourceSelector": "10344971235874465080",
+    "destinationSelector": "5990477251245693094",
+    "sourceCCIPRouter": "0x273C282A9f1B45416CB9967611d431C116286ef9",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Base Sepolia testnet -> Metis Sepolia testnet": {
+    "path": [
+      "Base Sepolia testnet",
+      "Sepolia testnet",
+      "Metis Sepolia testnet"
+    ],
+    "sourceSelector": "10344971235874465080",
+    "destinationSelector": "3777822886988675105",
+    "sourceCCIPRouter": "0x273C282A9f1B45416CB9967611d431C116286ef9",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Base Sepolia testnet -> Mode Sepolia testnet": {
+    "path": [
+      "Base Sepolia testnet",
+      "Mode Sepolia testnet"
+    ],
+    "sourceSelector": "10344971235874465080",
+    "destinationSelector": "829525985033418733",
+    "sourceCCIPRouter": "0x273C282A9f1B45416CB9967611d431C116286ef9",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Base Sepolia testnet -> Optimism Sepolia testnet": {
+    "path": [
+      "Base Sepolia testnet",
+      "Optimism Sepolia testnet"
+    ],
+    "sourceSelector": "10344971235874465080",
+    "destinationSelector": "5224473277236331295",
+    "sourceCCIPRouter": "0x273C282A9f1B45416CB9967611d431C116286ef9",
+    "destinationCCIPRouter": "0xF99b791257ab50be7F235BC825E7d4B83942cf38"
+  },
+  "Base Sepolia testnet -> Sepolia testnet": {
+    "path": [
+      "Base Sepolia testnet",
+      "Sepolia testnet"
+    ],
+    "sourceSelector": "10344971235874465080",
+    "destinationSelector": "16015286601757825753",
+    "sourceCCIPRouter": "0x273C282A9f1B45416CB9967611d431C116286ef9",
+    "destinationCCIPRouter": "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37"
+  },
+  "Base Sepolia testnet -> Wemix testnet": {
+    "path": [
+      "Base Sepolia testnet",
+      "Fuji testnet",
+      "Wemix testnet"
+    ],
+    "sourceSelector": "10344971235874465080",
+    "destinationSelector": "9284632837123596123",
+    "sourceCCIPRouter": "0x273C282A9f1B45416CB9967611d431C116286ef9",
+    "destinationCCIPRouter": "N/A"
+  },
+  "BNB Chain testnet -> Amoy testnet": {
+    "path": [
+      "BNB Chain testnet",
+      "Amoy testnet"
+    ],
+    "sourceSelector": "13264668187771770619",
+    "destinationSelector": "16281711391670634445",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7"
+  },
+  "BNB Chain testnet -> Arbitrum Sepolia testnet": {
+    "path": [
+      "BNB Chain testnet",
+      "Wemix testnet",
+      "Arbitrum Sepolia testnet"
+    ],
+    "sourceSelector": "13264668187771770619",
+    "destinationSelector": "3478487238524512106",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA"
+  },
+  "BNB Chain testnet -> Base Sepolia testnet": {
+    "path": [
+      "BNB Chain testnet",
+      "Base Sepolia testnet"
+    ],
+    "sourceSelector": "13264668187771770619",
+    "destinationSelector": "10344971235874465080",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x273C282A9f1B45416CB9967611d431C116286ef9"
+  },
+  "BNB Chain testnet -> Celo Alfajores testnet": {
+    "path": [
+      "BNB Chain testnet",
+      "Sepolia testnet",
+      "Celo Alfajores testnet"
+    ],
+    "sourceSelector": "13264668187771770619",
+    "destinationSelector": "16015286601757825753",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "BNB Chain testnet -> Fuji testnet": {
+    "path": [
+      "BNB Chain testnet",
+      "Fuji testnet"
+    ],
+    "sourceSelector": "13264668187771770619",
+    "destinationSelector": "14767482510784806043",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "BNB Chain testnet -> Gnosis Chiado testnet": {
+    "path": [
+      "BNB Chain testnet",
+      "Gnosis Chiado testnet"
+    ],
+    "sourceSelector": "13264668187771770619",
+    "destinationSelector": "8871595565390010547",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "BNB Chain testnet -> Kroma Sepolia testnet": {
+    "path": [
+      "BNB Chain testnet",
+      "Wemix testnet",
+      "Kroma Sepolia testnet"
+    ],
+    "sourceSelector": "13264668187771770619",
+    "destinationSelector": "5990477251245693094",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "BNB Chain testnet -> Metis Sepolia testnet": {
+    "path": [
+      "BNB Chain testnet",
+      "Sepolia testnet",
+      "Metis Sepolia testnet"
+    ],
+    "sourceSelector": "13264668187771770619",
+    "destinationSelector": "3777822886988675105",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "BNB Chain testnet -> Mode Sepolia testnet": {
+    "path": [
+      "BNB Chain testnet",
+      "Sepolia testnet",
+      "Mode Sepolia testnet"
+    ],
+    "sourceSelector": "13264668187771770619",
+    "destinationSelector": "829525985033418733",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "BNB Chain testnet -> Optimism Sepolia testnet": {
+    "path": [
+      "BNB Chain testnet",
+      "Sepolia testnet",
+      "Optimism Sepolia testnet"
+    ],
+    "sourceSelector": "13264668187771770619",
+    "destinationSelector": "5224473277236331295",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0xF99b791257ab50be7F235BC825E7d4B83942cf38"
+  },
+  "BNB Chain testnet -> Sepolia testnet": {
+    "path": [
+      "BNB Chain testnet",
+      "Sepolia testnet"
+    ],
+    "sourceSelector": "13264668187771770619",
+    "destinationSelector": "16015286601757825753",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37"
+  },
+  "BNB Chain testnet -> Wemix testnet": {
+    "path": [
+      "BNB Chain testnet",
+      "Wemix testnet"
+    ],
+    "sourceSelector": "13264668187771770619",
+    "destinationSelector": "9284632837123596123",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Celo Alfajores testnet -> Amoy testnet": {
+    "path": [
+      "Celo Alfajores testnet",
+      "Sepolia testnet",
+      "Amoy testnet"
+    ],
+    "sourceSelector": "16015286601757825753",
+    "destinationSelector": "16281711391670634445",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7"
+  },
+  "Celo Alfajores testnet -> Arbitrum Sepolia testnet": {
+    "path": [
+      "Celo Alfajores testnet",
+      "Sepolia testnet",
+      "Arbitrum Sepolia testnet"
+    ],
+    "sourceSelector": "16015286601757825753",
+    "destinationSelector": "3478487238524512106",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA"
+  },
+  "Celo Alfajores testnet -> Base Sepolia testnet": {
+    "path": [
+      "Celo Alfajores testnet",
+      "Sepolia testnet",
+      "Base Sepolia testnet"
+    ],
+    "sourceSelector": "16015286601757825753",
+    "destinationSelector": "10344971235874465080",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x273C282A9f1B45416CB9967611d431C116286ef9"
+  },
+  "Celo Alfajores testnet -> BNB Chain testnet": {
+    "path": [
+      "Celo Alfajores testnet",
+      "Sepolia testnet",
+      "BNB Chain testnet"
+    ],
+    "sourceSelector": "16015286601757825753",
+    "destinationSelector": "13264668187771770619",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Celo Alfajores testnet -> Fuji testnet": {
+    "path": [
+      "Celo Alfajores testnet",
+      "Sepolia testnet",
+      "Fuji testnet"
+    ],
+    "sourceSelector": "16015286601757825753",
+    "destinationSelector": "14767482510784806043",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Celo Alfajores testnet -> Gnosis Chiado testnet": {
+    "path": [
+      "Celo Alfajores testnet",
+      "Sepolia testnet",
+      "Gnosis Chiado testnet"
+    ],
+    "sourceSelector": "16015286601757825753",
+    "destinationSelector": "8871595565390010547",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Celo Alfajores testnet -> Kroma Sepolia testnet": {
+    "path": [
+      "Celo Alfajores testnet",
+      "Sepolia testnet",
+      "Wemix testnet",
+      "Kroma Sepolia testnet"
+    ],
+    "sourceSelector": "16015286601757825753",
+    "destinationSelector": "5990477251245693094",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Celo Alfajores testnet -> Metis Sepolia testnet": {
+    "path": [
+      "Celo Alfajores testnet",
+      "Sepolia testnet",
+      "Metis Sepolia testnet"
+    ],
+    "sourceSelector": "16015286601757825753",
+    "destinationSelector": "3777822886988675105",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Celo Alfajores testnet -> Mode Sepolia testnet": {
+    "path": [
+      "Celo Alfajores testnet",
+      "Sepolia testnet",
+      "Mode Sepolia testnet"
+    ],
+    "sourceSelector": "16015286601757825753",
+    "destinationSelector": "829525985033418733",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Celo Alfajores testnet -> Optimism Sepolia testnet": {
+    "path": [
+      "Celo Alfajores testnet",
+      "Sepolia testnet",
+      "Optimism Sepolia testnet"
+    ],
+    "sourceSelector": "16015286601757825753",
+    "destinationSelector": "5224473277236331295",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0xF99b791257ab50be7F235BC825E7d4B83942cf38"
+  },
+  "Celo Alfajores testnet -> Sepolia testnet": {
+    "path": [
+      "Celo Alfajores testnet",
+      "Sepolia testnet"
+    ],
+    "sourceSelector": "16015286601757825753",
+    "destinationSelector": "16015286601757825753",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37"
+  },
+  "Celo Alfajores testnet -> Wemix testnet": {
+    "path": [
+      "Celo Alfajores testnet",
+      "Sepolia testnet",
+      "Wemix testnet"
+    ],
+    "sourceSelector": "16015286601757825753",
+    "destinationSelector": "9284632837123596123",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Fuji testnet -> Amoy testnet": {
+    "path": [
+      "Fuji testnet",
+      "Amoy testnet"
+    ],
+    "sourceSelector": "14767482510784806043",
+    "destinationSelector": "16281711391670634445",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7"
+  },
+  "Fuji testnet -> Arbitrum Sepolia testnet": {
+    "path": [
+      "Fuji testnet",
+      "Arbitrum Sepolia testnet"
+    ],
+    "sourceSelector": "14767482510784806043",
+    "destinationSelector": "3478487238524512106",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA"
+  },
+  "Fuji testnet -> Base Sepolia testnet": {
+    "path": [
+      "Fuji testnet",
+      "Base Sepolia testnet"
+    ],
+    "sourceSelector": "14767482510784806043",
+    "destinationSelector": "10344971235874465080",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x273C282A9f1B45416CB9967611d431C116286ef9"
+  },
+  "Fuji testnet -> BNB Chain testnet": {
+    "path": [
+      "Fuji testnet",
+      "BNB Chain testnet"
+    ],
+    "sourceSelector": "14767482510784806043",
+    "destinationSelector": "13264668187771770619",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Fuji testnet -> Celo Alfajores testnet": {
+    "path": [
+      "Fuji testnet",
+      "Sepolia testnet",
+      "Celo Alfajores testnet"
+    ],
+    "sourceSelector": "14767482510784806043",
+    "destinationSelector": "16015286601757825753",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Fuji testnet -> Gnosis Chiado testnet": {
+    "path": [
+      "Fuji testnet",
+      "Gnosis Chiado testnet"
+    ],
+    "sourceSelector": "14767482510784806043",
+    "destinationSelector": "8871595565390010547",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Fuji testnet -> Kroma Sepolia testnet": {
+    "path": [
+      "Fuji testnet",
+      "Wemix testnet",
+      "Kroma Sepolia testnet"
+    ],
+    "sourceSelector": "14767482510784806043",
+    "destinationSelector": "5990477251245693094",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Fuji testnet -> Metis Sepolia testnet": {
+    "path": [
+      "Fuji testnet",
+      "Sepolia testnet",
+      "Metis Sepolia testnet"
+    ],
+    "sourceSelector": "14767482510784806043",
+    "destinationSelector": "3777822886988675105",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Fuji testnet -> Mode Sepolia testnet": {
+    "path": [
+      "Fuji testnet",
+      "Base Sepolia testnet",
+      "Mode Sepolia testnet"
+    ],
+    "sourceSelector": "14767482510784806043",
+    "destinationSelector": "829525985033418733",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Fuji testnet -> Optimism Sepolia testnet": {
+    "path": [
+      "Fuji testnet",
+      "Optimism Sepolia testnet"
+    ],
+    "sourceSelector": "14767482510784806043",
+    "destinationSelector": "5224473277236331295",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0xF99b791257ab50be7F235BC825E7d4B83942cf38"
+  },
+  "Fuji testnet -> Sepolia testnet": {
+    "path": [
+      "Fuji testnet",
+      "Sepolia testnet"
+    ],
+    "sourceSelector": "14767482510784806043",
+    "destinationSelector": "16015286601757825753",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37"
+  },
+  "Fuji testnet -> Wemix testnet": {
+    "path": [
+      "Fuji testnet",
+      "Wemix testnet"
+    ],
+    "sourceSelector": "14767482510784806043",
+    "destinationSelector": "9284632837123596123",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Gnosis Chiado testnet -> Amoy testnet": {
+    "path": [
+      "Gnosis Chiado testnet",
+      "Amoy testnet"
+    ],
+    "sourceSelector": "8871595565390010547",
+    "destinationSelector": "16281711391670634445",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7"
+  },
+  "Gnosis Chiado testnet -> Arbitrum Sepolia testnet": {
+    "path": [
+      "Gnosis Chiado testnet",
+      "Arbitrum Sepolia testnet"
+    ],
+    "sourceSelector": "8871595565390010547",
+    "destinationSelector": "3478487238524512106",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA"
+  },
+  "Gnosis Chiado testnet -> Base Sepolia testnet": {
+    "path": [
+      "Gnosis Chiado testnet",
+      "Base Sepolia testnet"
+    ],
+    "sourceSelector": "8871595565390010547",
+    "destinationSelector": "10344971235874465080",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x273C282A9f1B45416CB9967611d431C116286ef9"
+  },
+  "Gnosis Chiado testnet -> BNB Chain testnet": {
+    "path": [
+      "Gnosis Chiado testnet",
+      "BNB Chain testnet"
+    ],
+    "sourceSelector": "8871595565390010547",
+    "destinationSelector": "13264668187771770619",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Gnosis Chiado testnet -> Celo Alfajores testnet": {
+    "path": [
+      "Gnosis Chiado testnet",
+      "Sepolia testnet",
+      "Celo Alfajores testnet"
+    ],
+    "sourceSelector": "8871595565390010547",
+    "destinationSelector": "16015286601757825753",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Gnosis Chiado testnet -> Fuji testnet": {
+    "path": [
+      "Gnosis Chiado testnet",
+      "Fuji testnet"
+    ],
+    "sourceSelector": "8871595565390010547",
+    "destinationSelector": "14767482510784806043",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Gnosis Chiado testnet -> Kroma Sepolia testnet": {
+    "path": [
+      "Gnosis Chiado testnet",
+      "Fuji testnet",
+      "Wemix testnet",
+      "Kroma Sepolia testnet"
+    ],
+    "sourceSelector": "8871595565390010547",
+    "destinationSelector": "5990477251245693094",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Gnosis Chiado testnet -> Metis Sepolia testnet": {
+    "path": [
+      "Gnosis Chiado testnet",
+      "Sepolia testnet",
+      "Metis Sepolia testnet"
+    ],
+    "sourceSelector": "8871595565390010547",
+    "destinationSelector": "3777822886988675105",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Gnosis Chiado testnet -> Mode Sepolia testnet": {
+    "path": [
+      "Gnosis Chiado testnet",
+      "Sepolia testnet",
+      "Mode Sepolia testnet"
+    ],
+    "sourceSelector": "8871595565390010547",
+    "destinationSelector": "829525985033418733",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Gnosis Chiado testnet -> Optimism Sepolia testnet": {
+    "path": [
+      "Gnosis Chiado testnet",
+      "Optimism Sepolia testnet"
+    ],
+    "sourceSelector": "8871595565390010547",
+    "destinationSelector": "5224473277236331295",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0xF99b791257ab50be7F235BC825E7d4B83942cf38"
+  },
+  "Gnosis Chiado testnet -> Sepolia testnet": {
+    "path": [
+      "Gnosis Chiado testnet",
+      "Sepolia testnet"
+    ],
+    "sourceSelector": "8871595565390010547",
+    "destinationSelector": "16015286601757825753",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37"
+  },
+  "Gnosis Chiado testnet -> Wemix testnet": {
+    "path": [
+      "Gnosis Chiado testnet",
+      "Fuji testnet",
+      "Wemix testnet"
+    ],
+    "sourceSelector": "8871595565390010547",
+    "destinationSelector": "9284632837123596123",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Kroma Sepolia testnet -> Amoy testnet": {
+    "path": [
+      "Kroma Sepolia testnet",
+      "Wemix testnet",
+      "Amoy testnet"
+    ],
+    "sourceSelector": "5990477251245693094",
+    "destinationSelector": "16281711391670634445",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7"
+  },
+  "Kroma Sepolia testnet -> Arbitrum Sepolia testnet": {
+    "path": [
+      "Kroma Sepolia testnet",
+      "Wemix testnet",
+      "Arbitrum Sepolia testnet"
+    ],
+    "sourceSelector": "5990477251245693094",
+    "destinationSelector": "3478487238524512106",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA"
+  },
+  "Kroma Sepolia testnet -> Base Sepolia testnet": {
+    "path": [
+      "Kroma Sepolia testnet",
+      "Wemix testnet",
+      "Optimism Sepolia testnet",
+      "Base Sepolia testnet"
+    ],
+    "sourceSelector": "5990477251245693094",
+    "destinationSelector": "10344971235874465080",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x273C282A9f1B45416CB9967611d431C116286ef9"
+  },
+  "Kroma Sepolia testnet -> BNB Chain testnet": {
+    "path": [
+      "Kroma Sepolia testnet",
+      "Wemix testnet",
+      "BNB Chain testnet"
+    ],
+    "sourceSelector": "5990477251245693094",
+    "destinationSelector": "13264668187771770619",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Kroma Sepolia testnet -> Celo Alfajores testnet": {
+    "path": [
+      "Kroma Sepolia testnet",
+      "Wemix testnet",
+      "Amoy testnet",
+      "Sepolia testnet",
+      "Celo Alfajores testnet"
+    ],
+    "sourceSelector": "5990477251245693094",
+    "destinationSelector": "16015286601757825753",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Kroma Sepolia testnet -> Fuji testnet": {
+    "path": [
+      "Kroma Sepolia testnet",
+      "Wemix testnet",
+      "Fuji testnet"
+    ],
+    "sourceSelector": "5990477251245693094",
+    "destinationSelector": "14767482510784806043",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Kroma Sepolia testnet -> Gnosis Chiado testnet": {
+    "path": [
+      "Kroma Sepolia testnet",
+      "Wemix testnet",
+      "Amoy testnet",
+      "Gnosis Chiado testnet"
+    ],
+    "sourceSelector": "5990477251245693094",
+    "destinationSelector": "8871595565390010547",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Kroma Sepolia testnet -> Metis Sepolia testnet": {
+    "path": [
+      "Kroma Sepolia testnet",
+      "Wemix testnet",
+      "Amoy testnet",
+      "Sepolia testnet",
+      "Metis Sepolia testnet"
+    ],
+    "sourceSelector": "5990477251245693094",
+    "destinationSelector": "3777822886988675105",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Kroma Sepolia testnet -> Mode Sepolia testnet": {
+    "path": [
+      "Kroma Sepolia testnet",
+      "Wemix testnet",
+      "Amoy testnet",
+      "Sepolia testnet",
+      "Mode Sepolia testnet"
+    ],
+    "sourceSelector": "5990477251245693094",
+    "destinationSelector": "829525985033418733",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Kroma Sepolia testnet -> Optimism Sepolia testnet": {
+    "path": [
+      "Kroma Sepolia testnet",
+      "Wemix testnet",
+      "Optimism Sepolia testnet"
+    ],
+    "sourceSelector": "5990477251245693094",
+    "destinationSelector": "5224473277236331295",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0xF99b791257ab50be7F235BC825E7d4B83942cf38"
+  },
+  "Kroma Sepolia testnet -> Sepolia testnet": {
+    "path": [
+      "Kroma Sepolia testnet",
+      "Wemix testnet",
+      "Amoy testnet",
+      "Sepolia testnet"
+    ],
+    "sourceSelector": "5990477251245693094",
+    "destinationSelector": "16015286601757825753",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37"
+  },
+  "Kroma Sepolia testnet -> Wemix testnet": {
+    "path": [
+      "Kroma Sepolia testnet",
+      "Wemix testnet"
+    ],
+    "sourceSelector": "5990477251245693094",
+    "destinationSelector": "9284632837123596123",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Metis Sepolia testnet -> Amoy testnet": {
+    "path": [
+      "Metis Sepolia testnet",
+      "Sepolia testnet",
+      "Amoy testnet"
+    ],
+    "sourceSelector": "3777822886988675105",
+    "destinationSelector": "16281711391670634445",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7"
+  },
+  "Metis Sepolia testnet -> Arbitrum Sepolia testnet": {
+    "path": [
+      "Metis Sepolia testnet",
+      "Sepolia testnet",
+      "Arbitrum Sepolia testnet"
+    ],
+    "sourceSelector": "3777822886988675105",
+    "destinationSelector": "3478487238524512106",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA"
+  },
+  "Metis Sepolia testnet -> Base Sepolia testnet": {
+    "path": [
+      "Metis Sepolia testnet",
+      "Sepolia testnet",
+      "Base Sepolia testnet"
+    ],
+    "sourceSelector": "3777822886988675105",
+    "destinationSelector": "10344971235874465080",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x273C282A9f1B45416CB9967611d431C116286ef9"
+  },
+  "Metis Sepolia testnet -> BNB Chain testnet": {
+    "path": [
+      "Metis Sepolia testnet",
+      "Sepolia testnet",
+      "BNB Chain testnet"
+    ],
+    "sourceSelector": "3777822886988675105",
+    "destinationSelector": "13264668187771770619",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Metis Sepolia testnet -> Celo Alfajores testnet": {
+    "path": [
+      "Metis Sepolia testnet",
+      "Sepolia testnet",
+      "Celo Alfajores testnet"
+    ],
+    "sourceSelector": "3777822886988675105",
+    "destinationSelector": "16015286601757825753",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Metis Sepolia testnet -> Fuji testnet": {
+    "path": [
+      "Metis Sepolia testnet",
+      "Sepolia testnet",
+      "Fuji testnet"
+    ],
+    "sourceSelector": "3777822886988675105",
+    "destinationSelector": "14767482510784806043",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Metis Sepolia testnet -> Gnosis Chiado testnet": {
+    "path": [
+      "Metis Sepolia testnet",
+      "Sepolia testnet",
+      "Gnosis Chiado testnet"
+    ],
+    "sourceSelector": "3777822886988675105",
+    "destinationSelector": "8871595565390010547",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Metis Sepolia testnet -> Kroma Sepolia testnet": {
+    "path": [
+      "Metis Sepolia testnet",
+      "Sepolia testnet",
+      "Wemix testnet",
+      "Kroma Sepolia testnet"
+    ],
+    "sourceSelector": "3777822886988675105",
+    "destinationSelector": "5990477251245693094",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Metis Sepolia testnet -> Mode Sepolia testnet": {
+    "path": [
+      "Metis Sepolia testnet",
+      "Sepolia testnet",
+      "Mode Sepolia testnet"
+    ],
+    "sourceSelector": "3777822886988675105",
+    "destinationSelector": "829525985033418733",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Metis Sepolia testnet -> Optimism Sepolia testnet": {
+    "path": [
+      "Metis Sepolia testnet",
+      "Sepolia testnet",
+      "Optimism Sepolia testnet"
+    ],
+    "sourceSelector": "3777822886988675105",
+    "destinationSelector": "5224473277236331295",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0xF99b791257ab50be7F235BC825E7d4B83942cf38"
+  },
+  "Metis Sepolia testnet -> Sepolia testnet": {
+    "path": [
+      "Metis Sepolia testnet",
+      "Sepolia testnet"
+    ],
+    "sourceSelector": "3777822886988675105",
+    "destinationSelector": "16015286601757825753",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37"
+  },
+  "Metis Sepolia testnet -> Wemix testnet": {
+    "path": [
+      "Metis Sepolia testnet",
+      "Sepolia testnet",
+      "Wemix testnet"
+    ],
+    "sourceSelector": "3777822886988675105",
+    "destinationSelector": "9284632837123596123",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Mode Sepolia testnet -> Amoy testnet": {
+    "path": [
+      "Mode Sepolia testnet",
+      "Sepolia testnet",
+      "Amoy testnet"
+    ],
+    "sourceSelector": "829525985033418733",
+    "destinationSelector": "16281711391670634445",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7"
+  },
+  "Mode Sepolia testnet -> Arbitrum Sepolia testnet": {
+    "path": [
+      "Mode Sepolia testnet",
+      "Base Sepolia testnet",
+      "Arbitrum Sepolia testnet"
+    ],
+    "sourceSelector": "829525985033418733",
+    "destinationSelector": "3478487238524512106",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA"
+  },
+  "Mode Sepolia testnet -> Base Sepolia testnet": {
+    "path": [
+      "Mode Sepolia testnet",
+      "Base Sepolia testnet"
+    ],
+    "sourceSelector": "829525985033418733",
+    "destinationSelector": "10344971235874465080",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x273C282A9f1B45416CB9967611d431C116286ef9"
+  },
+  "Mode Sepolia testnet -> BNB Chain testnet": {
+    "path": [
+      "Mode Sepolia testnet",
+      "Base Sepolia testnet",
+      "BNB Chain testnet"
+    ],
+    "sourceSelector": "829525985033418733",
+    "destinationSelector": "13264668187771770619",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Mode Sepolia testnet -> Celo Alfajores testnet": {
+    "path": [
+      "Mode Sepolia testnet",
+      "Sepolia testnet",
+      "Celo Alfajores testnet"
+    ],
+    "sourceSelector": "829525985033418733",
+    "destinationSelector": "16015286601757825753",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Mode Sepolia testnet -> Fuji testnet": {
+    "path": [
+      "Mode Sepolia testnet",
+      "Sepolia testnet",
+      "Fuji testnet"
+    ],
+    "sourceSelector": "829525985033418733",
+    "destinationSelector": "14767482510784806043",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Mode Sepolia testnet -> Gnosis Chiado testnet": {
+    "path": [
+      "Mode Sepolia testnet",
+      "Sepolia testnet",
+      "Gnosis Chiado testnet"
+    ],
+    "sourceSelector": "829525985033418733",
+    "destinationSelector": "8871595565390010547",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Mode Sepolia testnet -> Kroma Sepolia testnet": {
+    "path": [
+      "Mode Sepolia testnet",
+      "Sepolia testnet",
+      "Wemix testnet",
+      "Kroma Sepolia testnet"
+    ],
+    "sourceSelector": "829525985033418733",
+    "destinationSelector": "5990477251245693094",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Mode Sepolia testnet -> Metis Sepolia testnet": {
+    "path": [
+      "Mode Sepolia testnet",
+      "Sepolia testnet",
+      "Metis Sepolia testnet"
+    ],
+    "sourceSelector": "829525985033418733",
+    "destinationSelector": "3777822886988675105",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Mode Sepolia testnet -> Optimism Sepolia testnet": {
+    "path": [
+      "Mode Sepolia testnet",
+      "Base Sepolia testnet",
+      "Optimism Sepolia testnet"
+    ],
+    "sourceSelector": "829525985033418733",
+    "destinationSelector": "5224473277236331295",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0xF99b791257ab50be7F235BC825E7d4B83942cf38"
+  },
+  "Mode Sepolia testnet -> Sepolia testnet": {
+    "path": [
+      "Mode Sepolia testnet",
+      "Sepolia testnet"
+    ],
+    "sourceSelector": "829525985033418733",
+    "destinationSelector": "16015286601757825753",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37"
+  },
+  "Mode Sepolia testnet -> Wemix testnet": {
+    "path": [
+      "Mode Sepolia testnet",
+      "Sepolia testnet",
+      "Wemix testnet"
+    ],
+    "sourceSelector": "829525985033418733",
+    "destinationSelector": "9284632837123596123",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Optimism Sepolia testnet -> Amoy testnet": {
+    "path": [
+      "Optimism Sepolia testnet",
+      "Amoy testnet"
+    ],
+    "sourceSelector": "5224473277236331295",
+    "destinationSelector": "16281711391670634445",
+    "sourceCCIPRouter": "0xF99b791257ab50be7F235BC825E7d4B83942cf38",
+    "destinationCCIPRouter": "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7"
+  },
+  "Optimism Sepolia testnet -> Arbitrum Sepolia testnet": {
+    "path": [
+      "Optimism Sepolia testnet",
+      "Arbitrum Sepolia testnet"
+    ],
+    "sourceSelector": "5224473277236331295",
+    "destinationSelector": "3478487238524512106",
+    "sourceCCIPRouter": "0xF99b791257ab50be7F235BC825E7d4B83942cf38",
+    "destinationCCIPRouter": "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA"
+  },
+  "Optimism Sepolia testnet -> Base Sepolia testnet": {
+    "path": [
+      "Optimism Sepolia testnet",
+      "Base Sepolia testnet"
+    ],
+    "sourceSelector": "5224473277236331295",
+    "destinationSelector": "10344971235874465080",
+    "sourceCCIPRouter": "0xF99b791257ab50be7F235BC825E7d4B83942cf38",
+    "destinationCCIPRouter": "0x273C282A9f1B45416CB9967611d431C116286ef9"
+  },
+  "Optimism Sepolia testnet -> BNB Chain testnet": {
+    "path": [
+      "Optimism Sepolia testnet",
+      "Amoy testnet",
+      "BNB Chain testnet"
+    ],
+    "sourceSelector": "5224473277236331295",
+    "destinationSelector": "13264668187771770619",
+    "sourceCCIPRouter": "0xF99b791257ab50be7F235BC825E7d4B83942cf38",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Optimism Sepolia testnet -> Celo Alfajores testnet": {
+    "path": [
+      "Optimism Sepolia testnet",
+      "Sepolia testnet",
+      "Celo Alfajores testnet"
+    ],
+    "sourceSelector": "5224473277236331295",
+    "destinationSelector": "16015286601757825753",
+    "sourceCCIPRouter": "0xF99b791257ab50be7F235BC825E7d4B83942cf38",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Optimism Sepolia testnet -> Fuji testnet": {
+    "path": [
+      "Optimism Sepolia testnet",
+      "Fuji testnet"
+    ],
+    "sourceSelector": "5224473277236331295",
+    "destinationSelector": "14767482510784806043",
+    "sourceCCIPRouter": "0xF99b791257ab50be7F235BC825E7d4B83942cf38",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Optimism Sepolia testnet -> Gnosis Chiado testnet": {
+    "path": [
+      "Optimism Sepolia testnet",
+      "Gnosis Chiado testnet"
+    ],
+    "sourceSelector": "5224473277236331295",
+    "destinationSelector": "8871595565390010547",
+    "sourceCCIPRouter": "0xF99b791257ab50be7F235BC825E7d4B83942cf38",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Optimism Sepolia testnet -> Kroma Sepolia testnet": {
+    "path": [
+      "Optimism Sepolia testnet",
+      "Wemix testnet",
+      "Kroma Sepolia testnet"
+    ],
+    "sourceSelector": "5224473277236331295",
+    "destinationSelector": "5990477251245693094",
+    "sourceCCIPRouter": "0xF99b791257ab50be7F235BC825E7d4B83942cf38",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Optimism Sepolia testnet -> Metis Sepolia testnet": {
+    "path": [
+      "Optimism Sepolia testnet",
+      "Sepolia testnet",
+      "Metis Sepolia testnet"
+    ],
+    "sourceSelector": "5224473277236331295",
+    "destinationSelector": "3777822886988675105",
+    "sourceCCIPRouter": "0xF99b791257ab50be7F235BC825E7d4B83942cf38",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Optimism Sepolia testnet -> Mode Sepolia testnet": {
+    "path": [
+      "Optimism Sepolia testnet",
+      "Base Sepolia testnet",
+      "Mode Sepolia testnet"
+    ],
+    "sourceSelector": "5224473277236331295",
+    "destinationSelector": "829525985033418733",
+    "sourceCCIPRouter": "0xF99b791257ab50be7F235BC825E7d4B83942cf38",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Optimism Sepolia testnet -> Sepolia testnet": {
+    "path": [
+      "Optimism Sepolia testnet",
+      "Sepolia testnet"
+    ],
+    "sourceSelector": "5224473277236331295",
+    "destinationSelector": "16015286601757825753",
+    "sourceCCIPRouter": "0xF99b791257ab50be7F235BC825E7d4B83942cf38",
+    "destinationCCIPRouter": "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37"
+  },
+  "Optimism Sepolia testnet -> Wemix testnet": {
+    "path": [
+      "Optimism Sepolia testnet",
+      "Wemix testnet"
+    ],
+    "sourceSelector": "5224473277236331295",
+    "destinationSelector": "9284632837123596123",
+    "sourceCCIPRouter": "0xF99b791257ab50be7F235BC825E7d4B83942cf38",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Sepolia testnet -> Amoy testnet": {
+    "path": [
+      "Sepolia testnet",
+      "Amoy testnet"
+    ],
+    "sourceSelector": "16015286601757825753",
+    "destinationSelector": "16281711391670634445",
+    "sourceCCIPRouter": "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37",
+    "destinationCCIPRouter": "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7"
+  },
+  "Sepolia testnet -> Arbitrum Sepolia testnet": {
+    "path": [
+      "Sepolia testnet",
+      "Arbitrum Sepolia testnet"
+    ],
+    "sourceSelector": "16015286601757825753",
+    "destinationSelector": "3478487238524512106",
+    "sourceCCIPRouter": "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37",
+    "destinationCCIPRouter": "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA"
+  },
+  "Sepolia testnet -> Base Sepolia testnet": {
+    "path": [
+      "Sepolia testnet",
+      "Base Sepolia testnet"
+    ],
+    "sourceSelector": "16015286601757825753",
+    "destinationSelector": "10344971235874465080",
+    "sourceCCIPRouter": "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37",
+    "destinationCCIPRouter": "0x273C282A9f1B45416CB9967611d431C116286ef9"
+  },
+  "Sepolia testnet -> BNB Chain testnet": {
+    "path": [
+      "Sepolia testnet",
+      "BNB Chain testnet"
+    ],
+    "sourceSelector": "16015286601757825753",
+    "destinationSelector": "13264668187771770619",
+    "sourceCCIPRouter": "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Sepolia testnet -> Celo Alfajores testnet": {
+    "path": [
+      "Sepolia testnet",
+      "Celo Alfajores testnet"
+    ],
+    "sourceSelector": "16015286601757825753",
+    "destinationSelector": "16015286601757825753",
+    "sourceCCIPRouter": "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Sepolia testnet -> Fuji testnet": {
+    "path": [
+      "Sepolia testnet",
+      "Fuji testnet"
+    ],
+    "sourceSelector": "16015286601757825753",
+    "destinationSelector": "14767482510784806043",
+    "sourceCCIPRouter": "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Sepolia testnet -> Gnosis Chiado testnet": {
+    "path": [
+      "Sepolia testnet",
+      "Gnosis Chiado testnet"
+    ],
+    "sourceSelector": "16015286601757825753",
+    "destinationSelector": "8871595565390010547",
+    "sourceCCIPRouter": "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Sepolia testnet -> Kroma Sepolia testnet": {
+    "path": [
+      "Sepolia testnet",
+      "Wemix testnet",
+      "Kroma Sepolia testnet"
+    ],
+    "sourceSelector": "16015286601757825753",
+    "destinationSelector": "5990477251245693094",
+    "sourceCCIPRouter": "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Sepolia testnet -> Metis Sepolia testnet": {
+    "path": [
+      "Sepolia testnet",
+      "Metis Sepolia testnet"
+    ],
+    "sourceSelector": "16015286601757825753",
+    "destinationSelector": "3777822886988675105",
+    "sourceCCIPRouter": "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Sepolia testnet -> Mode Sepolia testnet": {
+    "path": [
+      "Sepolia testnet",
+      "Mode Sepolia testnet"
+    ],
+    "sourceSelector": "16015286601757825753",
+    "destinationSelector": "829525985033418733",
+    "sourceCCIPRouter": "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Sepolia testnet -> Optimism Sepolia testnet": {
+    "path": [
+      "Sepolia testnet",
+      "Optimism Sepolia testnet"
+    ],
+    "sourceSelector": "16015286601757825753",
+    "destinationSelector": "5224473277236331295",
+    "sourceCCIPRouter": "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37",
+    "destinationCCIPRouter": "0xF99b791257ab50be7F235BC825E7d4B83942cf38"
+  },
+  "Sepolia testnet -> Wemix testnet": {
+    "path": [
+      "Sepolia testnet",
+      "Wemix testnet"
+    ],
+    "sourceSelector": "16015286601757825753",
+    "destinationSelector": "9284632837123596123",
+    "sourceCCIPRouter": "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Wemix testnet -> Amoy testnet": {
+    "path": [
+      "Wemix testnet",
+      "Amoy testnet"
+    ],
+    "sourceSelector": "9284632837123596123",
+    "destinationSelector": "16281711391670634445",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7"
+  },
+  "Wemix testnet -> Arbitrum Sepolia testnet": {
+    "path": [
+      "Wemix testnet",
+      "Arbitrum Sepolia testnet"
+    ],
+    "sourceSelector": "9284632837123596123",
+    "destinationSelector": "3478487238524512106",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA"
+  },
+  "Wemix testnet -> Base Sepolia testnet": {
+    "path": [
+      "Wemix testnet",
+      "Optimism Sepolia testnet",
+      "Base Sepolia testnet"
+    ],
+    "sourceSelector": "9284632837123596123",
+    "destinationSelector": "10344971235874465080",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x273C282A9f1B45416CB9967611d431C116286ef9"
+  },
+  "Wemix testnet -> BNB Chain testnet": {
+    "path": [
+      "Wemix testnet",
+      "BNB Chain testnet"
+    ],
+    "sourceSelector": "9284632837123596123",
+    "destinationSelector": "13264668187771770619",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Wemix testnet -> Celo Alfajores testnet": {
+    "path": [
+      "Wemix testnet",
+      "Amoy testnet",
+      "Sepolia testnet",
+      "Celo Alfajores testnet"
+    ],
+    "sourceSelector": "9284632837123596123",
+    "destinationSelector": "16015286601757825753",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Wemix testnet -> Fuji testnet": {
+    "path": [
+      "Wemix testnet",
+      "Fuji testnet"
+    ],
+    "sourceSelector": "9284632837123596123",
+    "destinationSelector": "14767482510784806043",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Wemix testnet -> Gnosis Chiado testnet": {
+    "path": [
+      "Wemix testnet",
+      "Arbitrum Sepolia testnet",
+      "Gnosis Chiado testnet"
+    ],
+    "sourceSelector": "9284632837123596123",
+    "destinationSelector": "8871595565390010547",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Wemix testnet -> Kroma Sepolia testnet": {
+    "path": [
+      "Wemix testnet",
+      "Kroma Sepolia testnet"
+    ],
+    "sourceSelector": "9284632837123596123",
+    "destinationSelector": "5990477251245693094",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Wemix testnet -> Metis Sepolia testnet": {
+    "path": [
+      "Wemix testnet",
+      "Amoy testnet",
+      "Sepolia testnet",
+      "Metis Sepolia testnet"
+    ],
+    "sourceSelector": "9284632837123596123",
+    "destinationSelector": "3777822886988675105",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Wemix testnet -> Mode Sepolia testnet": {
+    "path": [
+      "Wemix testnet",
+      "Amoy testnet",
+      "Sepolia testnet",
+      "Mode Sepolia testnet"
+    ],
+    "sourceSelector": "9284632837123596123",
+    "destinationSelector": "829525985033418733",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "N/A"
+  },
+  "Wemix testnet -> Optimism Sepolia testnet": {
+    "path": [
+      "Wemix testnet",
+      "Optimism Sepolia testnet"
+    ],
+    "sourceSelector": "9284632837123596123",
+    "destinationSelector": "5224473277236331295",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0xF99b791257ab50be7F235BC825E7d4B83942cf38"
+  },
+  "Wemix testnet -> Sepolia testnet": {
+    "path": [
+      "Wemix testnet",
+      "Amoy testnet",
+      "Sepolia testnet"
+    ],
+    "sourceSelector": "9284632837123596123",
+    "destinationSelector": "16015286601757825753",
+    "sourceCCIPRouter": "N/A",
+    "destinationCCIPRouter": "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37"
+  }
+}

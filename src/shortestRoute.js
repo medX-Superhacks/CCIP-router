@@ -19,22 +19,64 @@ const blockchainGraph = {
     "Wemix testnet": ["Amoy testnet", "Arbitrum Sepolia testnet", "BNB Chain testnet", "Fuji testnet", "Kroma Sepolia testnet", "Optimism Sepolia testnet"]
 };
 
-// Chain selectors
-const chainSelectors = {
-    "Amoy testnet": "16281711391670634445",
-    "Arbitrum Sepolia testnet": "3478487238524512106",
-    "Base Sepolia testnet": "10344971235874465080",
-    "Blast Sepolia testnet": "2027362563942762617",
-    "BNB Chain testnet": "13264668187771770619",
-    "Celo Alfajores testnet": "16015286601757825753",
-    "Fuji testnet": "14767482510784806043",
-    "Gnosis Chiado testnet": "8871595565390010547",
-    "Kroma Sepolia testnet": "5990477251245693094",
-    "Metis Sepolia testnet": "3777822886988675105",
-    "Mode Sepolia testnet": "829525985033418733",
-    "Optimism Sepolia testnet": "5224473277236331295",
-    "Sepolia testnet": "16015286601757825753",
-    "Wemix testnet": "9284632837123596123"
+// Chain selectors and CCIP router addresses
+const chainData = {
+    "Amoy testnet": {
+        selector: "16281711391670634445",
+        ccipMultiHopRouter: "0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7"
+    },
+    "Arbitrum Sepolia testnet": {
+        selector: "3478487238524512106",
+        ccipMultiHopRouter: "0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA"
+    },
+    "Base Sepolia testnet": {
+        selector: "10344971235874465080",
+        ccipMultiHopRouter: "0x273C282A9f1B45416CB9967611d431C116286ef9"
+    },
+    "Blast Sepolia testnet": {
+        selector: "2027362563942762617",
+        ccipMultiHopRouter: "N/A" // No router address provided for Blast Sepolia
+    },
+    "BNB Chain testnet": {
+        selector: "13264668187771770619",
+        ccipMultiHopRouter: "N/A" // No router address provided for BNB Chain testnet
+    },
+    "Celo Alfajores testnet": {
+        selector: "16015286601757825753",
+        ccipMultiHopRouter: "N/A" // No router address provided for Celo Alfajores
+    },
+    "Fuji testnet": {
+        selector: "14767482510784806043",
+        ccipMultiHopRouter: "N/A" // No router address provided for Fuji testnet
+    },
+    "Gnosis Chiado testnet": {
+        selector: "8871595565390010547",
+        ccipMultiHopRouter: "N/A" // No router address provided for Gnosis Chiado
+    },
+    "Kroma Sepolia testnet": {
+        selector: "5990477251245693094",
+        ccipMultiHopRouter: "N/A" // No router address provided for Kroma Sepolia
+    },
+    "Metis Sepolia testnet": {
+        selector: "3777822886988675105",
+        ccipMultiHopRouter: "N/A" // No router address provided for Metis Sepolia
+    },
+    "Mode Sepolia testnet": {
+        selector: "829525985033418733",
+        ccipMultiHopRouter: "N/A" // No router address provided for Mode Sepolia
+    },
+    "Optimism Sepolia testnet": {
+        selector: "5224473277236331295",
+        ccipMultiHopRouter: "0xF99b791257ab50be7F235BC825E7d4B83942cf38"
+    },
+    "Sepolia testnet": {
+        selector: "16015286601757825753",
+        ccipMultiHopRouter: "0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37"
+    },
+    "Wemix testnet": {
+        selector: "9284632837123596123",
+        ccipMultiHopRouter: "N/A" // No router address provided for Wemix testnet
+    }
 };
 
 function dijkstra(graph, start, goal) {
@@ -85,14 +127,18 @@ function findAllShortestPaths(graph) {
                 if (path) {
                     allPaths[`${source} -> ${destination}`] = {
                         path: path,
-                        sourceSelector: chainSelectors[source],
-                        destinationSelector: chainSelectors[destination]
+                        sourceSelector: chainData[source].selector,
+                        destinationSelector: chainData[destination].selector,
+                        sourceCCIPRouter: chainData[source].ccipMultiHopRouter,
+                        destinationCCIPRouter: chainData[destination].ccipMultiHopRouter
                     };
                 } else {
                     allPaths[`${source} -> ${destination}`] = {
                         path: "No path found",
-                        sourceSelector: chainSelectors[source],
-                        destinationSelector: chainSelectors[destination]
+                        sourceSelector: chainData[source].selector,
+                        destinationSelector: chainData[destination].selector,
+                        sourceCCIPRouter: chainData[source].ccipMultiHopRouter,
+                        destinationCCIPRouter: chainData[destination].ccipMultiHopRouter
                     };
                 }
             }
@@ -107,6 +153,6 @@ function savePathsToFile(paths, filename) {
 }
 
 const allShortestPaths = findAllShortestPaths(blockchainGraph);
-savePathsToFile(allShortestPaths, '../data/all_shortest_paths_with_selectors.json');
+savePathsToFile(allShortestPaths, '../data/all_shortest_paths_with_selectors_and_ccip.json');
 
-console.log("All shortest paths have been calculated and saved to 'all_shortest_paths_with_selectors.json'.");
+console.log("All shortest paths have been calculated and saved to 'all_shortest_paths_with_selectors_and_ccip.json'.");
