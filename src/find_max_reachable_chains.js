@@ -1,16 +1,16 @@
 const fs = require('fs');
 const path = require('path');
 
-// Step 1: Load the shortest paths data
-const allShortestPaths = require('./all_shortest_paths.json');
+const allShortestPaths = require('../data/all_shortest_paths_with_selectors.json');
 
-// Step 2: Implement the function to find the best two chains with dynamic hops
 function findMaxReachableChains(paths, maxHops) {
     const reachableChains = {};
     const chainPairs = Object.keys(paths);
 
     chainPairs.forEach((pairKey) => {
-        const path = paths[pairKey];
+        const pathData = paths[pairKey];
+        const path = pathData.path;
+
         if (path.length - 1 <= maxHops) {
             const [start, destination] = pairKey.split(' -> ');
             reachableChains[start] = reachableChains[start] || new Set();
@@ -36,25 +36,33 @@ function findMaxReachableChains(paths, maxHops) {
         }
     }
 
-    // Provide an initial value to the reduce function
+    // Initial value to the reduce function
     const maxReachPair = Object.entries(bestPairs).reduce(
         (a, b) => b[1] > a[1] ? b : a,
-        ['', 0] // Initial value: ['', 0] (an empty pair with a count of 0)
+        ['', 0]
     );
+
+    const [chainA, chainB] = maxReachPair[0].split(' & ');
+
+    // Find the correct selectors for chainA and chainB
+    const chainASelector = paths[`${chainA} -> ${chainB}`]?.sourceSelector || 
+                           paths[`${chainB} -> ${chainA}`]?.destinationSelector || 'N/A';
+    const chainBSelector = paths[`${chainB} -> ${chainA}`]?.sourceSelector || 
+                           paths[`${chainA} -> ${chainB}`]?.destinationSelector || 'N/A';
 
     console.log(`Best Pair: ${maxReachPair[0]} can reach ${maxReachPair[1]} chains within ${maxHops} hops.`);
 
     return {
         bestPair: maxReachPair[0],
+        chainASelector,
+        chainBSelector,
         reachCount: maxReachPair[1]
     };
 }
 
-// Step 3: Output the result with a dynamic number of hops
-const maxHops = 0;  
+const maxHops = 2;  
 const result = findMaxReachableChains(allShortestPaths, maxHops);
 
-// Save the result to a file
-fs.writeFileSync(path.join(__dirname, `max_reachable_chains_${maxHops}_hops.json`), JSON.stringify(result, null, 2));
+fs.writeFileSync(path.join(__dirname, `../data/max_reachable_chains_${maxHops}_hops.json`), JSON.stringify(result, null, 2));
 
 console.log(`Result saved to 'max_reachable_chains_${maxHops}_hops.json'.`);

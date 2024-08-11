@@ -1,4 +1,6 @@
 {
   "bestPair": "Amoy testnet & Arbitrum Sepolia testnet",
+  "chainASelector": "16281711391670634445",
+  "chainBSelector": "3478487238524512106",
   "reachCount": 13
 }
