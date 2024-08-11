@@ -98,6 +98,12 @@ Here are the contract addresses for different testnets involved in the medx sing
 
 ---
 
+## **Medx Onchain Autopay with Functions ntfn**
+
+- **Contract Address:** [0xF8539a832FFc12e0adc615c5759cD675Daa49Ca5](https://sepolia.basescan.org/address/0xF8539a832FFc12e0adc615c5759cD675Daa49Ca5)
+
+---
+
 ## **CCIP Multichain Hop Router**
 
 The following are the **CCIP Multichain Hop Router** contract addresses deployed across different testnets:
