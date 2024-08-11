@@ -127,7 +127,8 @@ Here are some examples of multi-hop transactions executed across various testnet
   - **Transaction:** [CCIP Multi-Hop](https://ccip.chain.link/tx/0xe6e1effa58c4d081159a3fa2d567d52364218f1b748a696adac6ff16732ae02b)
 
 - **Base ➡ Optimism ➡ Sepolia ➡ Amoy**
-  - **Transaction:** [CCIP Multi-Hop](https://ccip.chain.link/tx/0x1213cfb14f128a2a0468b0b848e9dacb2e8a359364a8b9d16666f7d2a8dc6f53)
+  - **Transaction Optimism --> Sepolia :** [CCIP Multi-Hop](https://ccip.chain.link/tx/0x1213cfb14f128a2a0468b0b848e9dacb2e8a359364a8b9d16666f7d2a8dc6f53)
+  - **Transaction Sepolia --> Amoy :** [CCIP Multi-Hop](https://ccip.chain.link/tx/0xd24a66d5ed53a4bada1fe4bc8a31a22a7867220e8cc652e885834da0fe304bfe)
 ---
 
 ## **Repository Structure**
